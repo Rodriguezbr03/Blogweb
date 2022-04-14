@@ -46,16 +46,16 @@ nav ul li a {
 
 .rod-img img {
   border-radius: 30px;
-  width: 150px;
+  width: 160px;
 }
 .rod {
   width: 100px;
 }
 
 .text-conteiner {
-  max-width: 600px;
-  margin-top: 7;
+  max-width: 400px;
   margin-left: 35%;
+  padding: 20px 8%;
 }
 
 .text-conteiner h1{
