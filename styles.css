@@ -39,9 +39,14 @@ nav ul li a {
 
 .rod-img {
   position: absolute;
-  top: -20;
+  top: -50;
   left: 22%;
   width: 0px;
+}
+
+.rod-img img {
+  border-radius: 30px;
+  width: 150px;
 }
 .rod {
   width: 100px;
@@ -50,10 +55,10 @@ nav ul li a {
 .text-conteiner {
   max-width: 600px;
   margin-top: 7;
-  margin-left: 50%;
+  margin-left: 35%;
 }
 
 .text-conteiner h1{
-  font-size: 80px;
+  font-size: none;
   font-weight: 400px;
 }
