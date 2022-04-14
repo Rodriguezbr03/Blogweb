@@ -1,6 +1,4 @@
-Body {
-background-color: white;
-}
+
 
 .body{
   background-color: #1d2026;
@@ -8,4 +6,54 @@ background-color: white;
   width: 100%;
   color: #fff;
   position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav .menu-img {
+width: 100px;
+margin-right: 90px;
+cursor: pointer;
+
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 59px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffffff;
+}
+
+.rod-img {
+  position: absolute;
+  top: -20;
+  left: 22%;
+  width: 0px;
+}
+.rod {
+  width: 100px;
+}
+
+.text-conteiner {
+  max-width: 600px;
+  margin-top: 7;
+  margin-left: 50%;
+}
+
+.text-conteiner h1{
+  font-size: 80px;
+  font-weight: 400px;
 }
