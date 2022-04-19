@@ -37,28 +37,36 @@ nav ul li a {
   color: #ffffffff;
 }
 
+ul li a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 .rod-img {
   position: absolute;
-  top: -50;
-  left: 22%;
-  width: 0px;
+  top: -60;
+  left: 10%;
+  padding: 16px;
 }
 
 .rod-img img {
   border-radius: 30px;
-  width: 160px;
+  width: 150px;
 }
 .rod {
-  width: 100px;
+  max-width: 100px;
 }
 
 .text-conteiner {
-  max-width: 400px;
-  margin-left: 35%;
+  min-width: 100px;
+  margin-left: 45%;
   padding: 20px 8%;
 }
 
 .text-conteiner h1{
-  font-size: none;
-  font-weight: 400px;
+  min-width: 100px;
 }
