@@ -1,5 +1,5 @@
 
-
+/*body*/
 .body{
   background-color: #1d2026;
   min-height: 100vh;
@@ -7,20 +7,20 @@
   color: #fff;
   position: relative;
 }
-
+/*nav the position both picture and welcome text*/
 nav {
   display: flex;
   align-items: center;
-  padding: 20px 8%;
+  padding: 40px 8%;
 }
-
+/*logo css*/
 nav .menu-img {
 width: 100px;
 margin-right: 90px;
 cursor: pointer;
 
 }
-
+/*menu Home, About Intresting*/
 nav ul {
   flex: 1;
   text-align: right;
@@ -44,18 +44,27 @@ ul li a{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-color: gray;
+}
+ul li a:hover{
+  color: skyblue;
 }
 
 .rod-img {
   position: absolute;
   top: -60;
-  left: 10%;
+  left: 20%;
   padding: 16px;
 }
 
 .rod-img img {
-  border-radius: 30px;
-  width: 150px;
+  border-radius: 0px;
+  width: 390px;
+  box-shadow: 10px 10px 5px #ccc;
+     -moz-box-shadow: 10px 10px 5px #ccc;
+     -webkit-box-shadow: 10px 10px 5px #ccc;
+     -khtml-box-shadow: 10px 10px 5px #ccc;
+ background-repeat: no-repeat;
 }
 .rod {
   max-width: 100px;
