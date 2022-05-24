@@ -57,7 +57,7 @@ ul li a:hover{
   left: 20%;
   padding: 16px;
 }
-
+/* rod-img code*/
 .rod-img img {
   border-radius: 0px;
   width: 300px;
@@ -67,21 +67,22 @@ ul li a:hover{
      -khtml-box-shadow: 10px 10px 5px #ccc;
  background-repeat: no-repeat;
 }
+/* width for rod-img*/
 .rod {
   max-width: 100px;
 }
-
+/*JS-welcome text*/
 .text-conteiner {
   min-width: 100px;
   margin: auto;
   padding: 10px 8%;
   text-align: center;
 }
-
-.text-conteiner h1{
+/*conteiner for my h2 text*/
+.text-conteiner h2{
   min-width: 100px;
 }
-
+/*font-text for my Js*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
