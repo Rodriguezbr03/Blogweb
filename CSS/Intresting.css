@@ -17,7 +17,6 @@ nav {
 nav .menu-img {
 width: 100px;
 margin-right: 90px;
-cursor: pointer;
 
 }
 /*menu Home, About Intresting*/
@@ -148,7 +147,6 @@ section .title::after{
 .services .title::after,
 .title::after{
     background: #111;
-    content: "what i provide";
 }
 /* text-card codes*/
 .services .serv-content .card{
@@ -157,7 +155,6 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 /* hover color of my text-card*/
@@ -252,7 +249,7 @@ footer span a:hover{
     .menu-btn i.active:before{
         content: "\f00d";
     }
-    
+
    .text-2{
         font-size: 70px;
     }
@@ -297,3 +294,176 @@ footer span a:hover{
     .text{
         font-size: 19px;
     }
+    /* rod-img code*/
+    .rod-img img {
+      border-radius: 0px;
+      width: 300px;
+      box-shadow: 10px 10px 5px #ccc;
+         -moz-box-shadow: 10px 10px 5px #ccc;
+         -webkit-box-shadow: 10px 10px 5px #ccc;
+         -khtml-box-shadow: 10px 10px 5px #ccc;
+     background-repeat: no-repeat;
+    }
+    /* width for rod-img*/
+    .rod {
+      max-width: 100px;
+    }
+    /*JS-welcome text*/
+    .text-conteiner {
+      min-width: 100px;
+      margin: auto;
+      padding: 10px 8%;
+      text-align: center;
+    }
+    /*conteiner for my h2 text*/
+    .text-conteiner h2{
+      min-width: 100px;
+    }
+
+    /*logo css*/
+    nav .menu-img {
+    width: 100px;
+    margin-right: 90px;
+    cursor: pointer;
+    }
+
+  }
+  /* about-code cv*/
+  .bold{
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  }
+
+  /*Utbildning*/
+  .semi_bold {
+  font-weight: 500;
+  font-size: 16px;
+  }
+  /* resume-css for my all job and studie display*/
+  .resume {
+  height: auto;
+  display: block;
+  margin: 50px auto;
+  }
+
+  .resume .resume_left{
+  width: 280px;
+  background: gray;
+  }
+  /* resume plus rod-img on my cv display*/
+  .resume .resume_left .resume_profile img{
+  width: 100%;
+  height: 100%;
+  }
+
+  .resume .resume_left .resume_content{
+  padding: 0 25px;
+  }
+
+  .resume .title{
+  margin-bottom: 30px;
+  }
+
+  .resume .resume_left .bold{
+    color: #ffff;
+  }
+
+  .resume .resume_left .regular{
+  color: #b1eaff;
+  }
+
+  .resume .resume_item{
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+  }
+
+  .resume .resume_left .resume_item:last-child{
+  border-bottom: opx;
+  }
+  /* rsume-resume_left plus ul li list for my test*/
+  .resume .resume_left ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  /* resume .resume_left ul li .icon display code*/
+  .resume .resume_left ul li .icon{
+  width: 35px;
+  height: 35px;
+  background: #ffff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  }
+
+  .resume .icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%-50%);
+  }
+  /* resume_skills means my studie and job experence*/
+  .resume .resume_left .resume_skills ul li{
+  color: #b1eaff;
+  justify-content: space-between;
+  }
+
+  .resume .resume_left .resume_skills ul li .skill_name{
+  width: 25%;
+  }
+
+  .resume .resume_skills ul li .skill_per{
+  width: 15%;
+  }
+  .resume .resume_left .resume_skills ul li .skill_progress{
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+  }
+
+  .resume .resume_left .resume_skills ul li .skill_progress span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background:#fff;
+  }
+
+  .resume .resume_right{
+    padding: 0 80px;
+    margin: auto;
+    background: gray;
+    min-width: 690px;
+    max-width: 1300px;
+  }
+
+  .resume .resume_right .bold{
+  color:#00b5f4;
+  }
+  /* display for my resume_education*/
+  .resume .resume_right .resume_work ul, .resume .resume_right .resume_education{
+  padding-left: 40px;
+  overflow: hidden;
+  }
+
+  .resume .resume_right ul li{
+  position: relativ;
+  font-family:  'Poppins', sans-serif;
+  }
+
+  .resume .resume_right ul li .date{
+  font-size: 16px;
+  font-weight: 500;
+  }
+
+  .resume .resume_right ul li .info{
+  margin-bottom: 0px;
+  }
+
+  body {
+    display: flex;
+}
